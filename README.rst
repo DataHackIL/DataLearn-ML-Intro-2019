@@ -11,7 +11,7 @@ Outline
 * Preprocessing
 
   * Scaling and normalization
-  * Treating outliers
+  * Handling outliers
   * Feature engineering
   * Feature selection
   * Dimensionality reduction
