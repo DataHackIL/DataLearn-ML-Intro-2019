@@ -9,7 +9,12 @@ Outline
 
 * Data exploration
 * Preprocessing
-* Feature engineering
+
+  * Scaling and normalization
+  * Treating outliers
+  * Feature engineering
+  * Feature selection
+  * Dimensionality reduction
 * Classification
 
   * Modelling
