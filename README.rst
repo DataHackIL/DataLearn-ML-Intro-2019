@@ -17,9 +17,14 @@ Outline
   * Dimensionality reduction
 * Classification
 
-  * Modelling
+  * Model fit
+  
+    * Loss function
+    * Gradient descent
+    * Overfitting
     * Hyperparameter Optimization
   * Evaluation
+  
     * Model selection
     * Cross validation
 * Regression
