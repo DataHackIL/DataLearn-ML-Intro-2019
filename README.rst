@@ -18,7 +18,10 @@ Outline
 * Classification
 
   * Modelling
+    * Hyperparameter Optimization
   * Evaluation
+    * Model selection
+    * Cross validation
 * Regression
 
   * Modeling
