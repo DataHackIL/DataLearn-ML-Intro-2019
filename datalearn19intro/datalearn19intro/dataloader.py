@@ -1,6 +1,8 @@
 """Data loading code for DataLearn prep night workshop."""
 
 import pip
+import subprocess
+
 import pandas as pd
 
 try:
@@ -37,7 +39,8 @@ def gdrive_authenticate():
     if GDRIVE is not None:
         return
     print('Installing PyDrive...')
-    pipinstall('PyDrive')
+    subprocess.run(["pip", "install", "-U", "-q", "PyDrive"])
+    # pipinstall('PyDrive')
     # !pip install -U -q PyDrive
     from pydrive.auth import GoogleAuth
     from pydrive.drive import GoogleDrive
