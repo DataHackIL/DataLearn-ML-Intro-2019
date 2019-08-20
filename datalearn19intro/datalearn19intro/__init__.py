@@ -1,3 +1,3 @@
-from dataloader import (  # noqa: F401
+from .dataloader import (  # noqa: F401
     get_accounts,
 )
