@@ -20,7 +20,7 @@ setuptools.setup(
     name='datalearn19intro',
     license="MIT",
     description='Helper code for DataLearn 2019 ML Intro Workshop.',
-    version='v0.0.1',
+    version='v0.0.2',
     # cmdclass=versioneer.get_cmdclass(),
     long_description=README,
     url='https://github.com/DataHackIL/DataLearn-ML-Intro-2019',
