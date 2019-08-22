@@ -56,15 +56,32 @@ def gdrive_authenticate():
     GDRIVE = GoogleDrive(gauth)
 
 
-def get_accounts():
+def _get_file(fname, id):
     if IN_COLAB:
         gdrive_authenticate()
         # you can see it with "get sherable link"
-        print("Downloading accounts.csv from Google Drive...")
-        accounts_file_id = '1SFFGL_FIq3-l6CP9MTe9ueuLRMz_tvrw'
-        downloaded = GDRIVE.CreateFile({'id': accounts_file_id})
-        downloaded.GetContentFile('accounts.csv')
+        print("Downloading {} from Google Drive...".format(fname))
+        downloaded = GDRIVE.CreateFile({'id': id})
+        downloaded.GetContentFile(fname)
         print("Done.")
-        return pd.read_csv('accounts.csv')
+        return pd.read_csv(fname)
     else:
-        return pd.read_csv('data/accounts.csv')
+        return pd.read_csv('data/{}'.format(fname))
+
+
+def get_accounts():
+    return _get_file('accounts.csv', '1SFFGL_FIq3-l6CP9MTe9ueuLRMz_tvrw')
+
+
+def get_users():
+    return _get_file('users.csv', '1fG6ebyTaWWOVRFHw9svNjgJLYdUcu5th')
+
+
+def get_events():
+    return _get_file(
+        'Dynamic events table.csv', '1Gv0Z_IJ1kBwuUnPDkpgFM8mK1dGeTNi4')
+
+
+def get_subscriptions():
+    return _get_file(
+        'Dynamic subscription table.csv', '1qC0VOpUkZo4O4lggzp45YcNxC7NXY4VV')
