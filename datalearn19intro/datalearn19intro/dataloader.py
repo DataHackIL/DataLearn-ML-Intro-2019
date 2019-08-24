@@ -85,3 +85,8 @@ def get_events():
 def get_subscriptions():
     return _get_file(
         'Dynamic subscription table.csv', '1qC0VOpUkZo4O4lggzp45YcNxC7NXY4VV')
+
+
+def get_processed_intro_dataet():
+    return _get_file(
+        'monday_datalearn.csv', '1W2D192QF_LIixPws1mj57C6OBNSxILFI')
