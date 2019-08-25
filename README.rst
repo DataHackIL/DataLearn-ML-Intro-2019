@@ -3,10 +3,18 @@ DataLearn Supervised ML Intro 2019
 
 The repository of the hands-on introduction to machine learning workshop of the DataLearn 2019 track at DataHack 2019.
 
+`Meetup event link <https://www.meetup.com/DataHack/events/263740425/>`_
+
+Notebooks by Shay Palachy. Presentation by Shay Palachy and Dana Kaner.   *(Thank you Dana <3)*
+
 Resources
 =========
 
-* Presentation: https://docs.google.com/presentation/d/1l91BYDG6NeWRj7KChI9BjxNTaWWBorEnNGp3SMIMUkw/edit?usp=sharing
+* Presentation: 
+
+  * `Google Slides link <https://docs.google.com/presentation/d/1l91BYDG6NeWRj7KChI9BjxNTaWWBorEnNGp3SMIMUkw/edit?usp=sharing>`_
+  * Credits: Shay Palachy **and Dana Kaner**
+  
 * Notebooks:
 
   1. `Introducing Jupyter notebooks <https://github.com/DataHackIL/DataLearn-ML-Intro-2019/blob/master/part_1.introducing_jupyter.ipynb>`_
