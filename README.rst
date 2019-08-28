@@ -12,7 +12,7 @@ Resources
 
 * Presentation: 
 
-  * `Slides in <https://github.com/DataHackIL/DataLearn-ML-Intro-2019/blob/master/Intro%20to%20Machine%20Learning.pdf>`_
+  * `Intro to Machine Learning presentation <https://github.com/DataHackIL/DataLearn-ML-Intro-2019/blob/master/Intro%20to%20Machine%20Learning.pdf>`_
   * Credits: Shay Palachy **and Dana Kaner**
   
 * Notebooks:
